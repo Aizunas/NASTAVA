@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    z-index: -1;
+    z-index: 1;
     top: 8%;
 }
 
@@ -204,10 +204,10 @@ background-color: #e64a19;
 
 .mcq-image {
     position: absolute;
-    top: 115%;
-    left: 20%;
+    top: 105%;
+    left: 22%;
     transform: translate(-50%, -50%);
-    width: 700px; 
+    width: 600px; 
     z-index: 1;
 
 }
@@ -246,17 +246,17 @@ background-color: #e64a19;
 
 .pastpapers-image {
     position: absolute;
-    top: 115%;
-    left: 48%;
+    top: 142%;
+    left: 74%;
     transform: translate(-50%, -50%);
-    width: 700px; 
+    width: 600px; 
     z-index: 1;
 }
 
 .textbook-image {
     position: absolute;
-    top: 115%;
-    left: 76%;
+    top: 175%;
+    left: 22%;
     transform: translate(-50%, -50%);
     width: 600px; 
     z-index: 1;
@@ -265,10 +265,10 @@ background-color: #e64a19;
 
 .video-image {
     position: absolute;
-    top: 176%;
-    left: 23%;
+    top: 210%;
+    left: 74%;
     transform: translate(-50%, -50%);
-    width: 600px; 
+    width: 500px; 
     z-index: 1;
 
 }
@@ -276,7 +276,6 @@ background-color: #e64a19;
 .section-square {
     border-radius: 0px;
     padding: 20px;
-    text-align: center;
     color: #f0a202;
     margin: 20px auto;
     cursor: pointer;
@@ -300,89 +299,147 @@ background-color: #e64a19;
     
 }
 
-.oblong-button:hover {
-    background-color: #009c94;
-}
 
 .section1 {
     position: absolute;
     top: 90%; /* Adjust the top value to move it down */
-    left: 20%; /* To center horizontally */
+    left: 49%; /* To center horizontally */
     transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
+    width: 1300px;
+    height: 250px;
     background-color: #f0a202;
     color: black;
     font-family: 'Glacial Indifference', sans-serif;
-    
     
 }
 
+.section1 h2 {
+    position: absolute;
+    font-size: 22px;
+    top: 5%;
+    left: 50%;
+}
+
+
+.section1 a.oblong-button {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+
+}
+
+.section1 p {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 33%;
+
+}
+
+
+
 .section2 {
     position: absolute;
-    top: 90%; /* Adjust the top value to move it down */
-    left: 48%;
+    top: 125%; /* Adjust the top value to move it down */
+    left: 49%;
     transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
+    width: 1300px;
+    height: 250px;
     background-color: #f0a202;
     color: black;
-    font-family: 'Glacial Indifference', sans-serif;
-    
-    
+    font-family: 'Glacial Indifference', sans-serif; 
+}
+
+.section2 h2 {
+    position: absolute;
+    font-size: 22px;
+    top: 5%;
+    left: 30%;
+}
+
+.section2 a.oblong-button {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+
+}
+
+.section2 p {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 20%;
+
 }
 
 .section3 {
     position: absolute;
-    top: 90%; /* Adjust the top value to move it down */
-    left: 76%;
+    top: 160%; /* Adjust the top value to move it down */
+    left: 49%;
     transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
+    width: 1300px;
+    height: 250px;
     background-color: #f0a202;
     color: black;
     font-family: 'Glacial Indifference', sans-serif;
     
+}
+
+.section3 h2 {
+    position: absolute;
+    font-size: 22px;
+    top: 5%;
+    left: 55%;
+}
+
+.section3 a.oblong-button {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+
+}
+
+.section3 p {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 35%;
+
 }
 
 .section4 {
     position: absolute;
-    top: 150%; /* Adjust the top value to move it down */
-    left: 23%;
+    top: 195%; /* Adjust the top value to move it down */
+    left: 49%;
     transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
+    width: 1300px;
+    height: 250px;
     background-color: #f0a202;
     color: black;
     font-family: 'Glacial Indifference', sans-serif;
     
 }
 
-.section5 {
+.section4 h2 {
     position: absolute;
-    top: 150%; /* Adjust the top value to move it down */
-    left: 51%;
-    transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
-    background-color: #f0a202;
-    color: black;
-    font-family: 'Glacial Indifference', sans-serif;
-    
+    font-size: 22px;
+    top: 5%;
+    left: 30%;
 }
 
-.section6 {
+.section4 a.oblong-button {
     position: absolute;
-    top: 150%; /* Adjust the top value to move it down */
-    left: 79%;
-    transform: translateX(-50%);
-    width: 400px;
-    height: 500px;
-    background-color: #f0a202;
-    color: black;
-    font-family: 'Glacial Indifference', sans-serif;
-    
-    
+    top: 80%;
+    left: 31%;
+
+}
+
+.section4 p {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 20%;
+
 }
 
 .resources-text {
