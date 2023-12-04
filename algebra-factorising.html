@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASTAVA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      
+    .quiz-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      width: 600px;
+      height: 2000px;
+      font-size: 22px;
+    }
+
+    .one {
+        position: absolute;
+        top:50%;
+        left:30%;
+    }
+
+    .question {
+      margin-bottom: 15px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="banner"> </div>
+    <div class="banner2">
+        <a href="english.html" class="menu-option">English</a>
+        <a href="http://127.0.0.1:5500/Maths.html" class="menu-option">Mathematics</a>
+        <a href="biology.html" class="menu-option">Biology</a>
+        <a href="chemistry.html" class="menu-option">Chemistry</a>
+        <a href="physics.html" class="menu-option">Physics</a>
+        
+    </div>
+
+    <div class="buttons">
+        <button class="signup-button">Sign Up</button>
+        <button class="login-button">Log In</button>
+    </div>
+
+    <img class="logo" src="Downloads/Logo.svg" alt="Your Logo">
+
+   
+
+
+
+    <div class="quiz-container one">
+        <form id="quizForm">
+          <div class="question">
+            <p>1. Factorize the expression: x^2 + 5x + 6</p>
+            <div class="options">
+              <label><input type="radio" name="q1" value="a"> (x + 2)(x + 3)</label>
+              <label><input type="radio" name="q1" value="b"> (x - 2)(x - 3)</label>
+              <label><input type="radio" name="q1" value="c"> (x + 2)(x - 3)</label>
+              <label><input type="radio" name="q1" value="d"> (x - 2)(x + 3)</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>2. Factorize the expression: 2x^2 + 7x + 3</p>
+            <div class="options">
+              <label><input type="radio" name="q2" value="a"> (2x + 1)(x + 3)</label>
+              <label><input type="radio" name="q2" value="b"> (2x - 1)(x - 3)</label>
+              <label><input type="radio" name="q2" value="c"> (2x + 1)(x - 3)</label>
+              <label><input type="radio" name="q2" value="d"> (2x - 1)(x + 3)</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>3. Factorize the expression: x^2 - 4</p>
+            <div class="options">
+              <label><input type="radio" name="q3" value="a"> (x + 2)(x - 2)</label>
+              <label><input type="radio" name="q3" value="b"> (x - 2)(x + 2)</label>
+              <label><input type="radio" name="q3" value="c"> (x - 4)(x + 4)</label>
+              <label><input type="radio" name="q3" value="d"> (x + 4)(x - 4)</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>4. Factorize the expression: 3x^2 - 12x + 9</p>
+            <div class="options">
+              <label><input type="radio" name="q4" value="a"> (3x - 3)(x - 3)</label>
+              <label><input type="radio" name="q4" value="b"> (3x + 3)(x + 3)</label>
+              <label><input type="radio" name="q4" value="c"> (3x - 1)(x - 9)</label>
+              <label><input type="radio" name="q4" value="d"> (3x + 1)(x + 9)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>5. Factorize the expression: 4x^2 - 25</p>
+            <div class="options">
+              <label><input type="radio" name="q5" value="a"> (2x + 5)(2x - 5)</label>
+              <label><input type="radio" name="q5" value="b"> (2x - 5)(2x + 5)</label>
+              <label><input type="radio" name="q5" value="c"> (4x + 5)(x - 5)</label>
+              <label><input type="radio" name="q5" value="d"> (4x - 5)(x + 5)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>6. Factorize the expression: x^2 + 7x + 12</p>
+            <div class="options">
+              <label><input type="radio" name="q6" value="a"> (x + 3)(x + 4)</label>
+              <label><input type="radio" name="q6" value="b"> (x - 3)(x - 4)</label>
+              <label><input type="radio" name="q6" value="c"> (x + 1)(x + 12)</label>
+              <label><input type="radio" name="q6" value="d"> (x - 1)(x - 12)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>7. Factorize the expression: 2x^2 - 5x - 12</p>
+            <div class="options">
+              <label><input type="radio" name="q7" value="a"> (2x - 3)(x + 4)</label>
+              <label><input type="radio" name="q7" value="b"> (2x + 3)(x - 4)</label>
+              <label><input type="radio" name="q7" value="c"> (2x - 1)(x + 12)</label>
+              <label><input type="radio" name="q7" value="d"> (2x + 1)(x - 12)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>8. Factorize the expression: 5x^2 + 20x + 15</p>
+            <div class="options">
+              <label><input type="radio" name="q8" value="a"> (5x + 3)(x + 1)</label>
+              <label><input type="radio" name="q8" value="b"> (5x - 3)(x - 1)</label>
+              <label><input type="radio" name="q8" value="c"> (5x + 1)(x + 3)</label>
+              <label><input type="radio" name="q8" value="d"> (5x - 1)(x - 3)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>9. Factorize the expression: 3x^2 + 8x - 3</p>
+            <div class="options">
+              <label><input type="radio" name="q9" value="a"> (3x - 1)(x + 3)</label>
+              <label><input type="radio" name="q9" value="b"> (3x + 1)(x - 3)</label>
+              <label><input type="radio" name="q9" value="c"> (3x - 3)(x + 1)</label>
+              <label><input type="radio" name="q9" value="d"> (3x + 3)(x - 1)</label>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>10. Factorize the expression: 2x^2 - 7x - 15</p>
+            <div class="options">
+              <label><input type="radio" name="q10" value="a"> (2x - 5)(x + 3)</label>
+              <label><input type="radio" name="q10" value="b"> (2x + 5)(x - 3)</label>
+              <label><input type="radio" name="q10" value="c"> (2x - 3)(x + 5)</label>
+              <label><input type="radio" name="q10" value="d"> (2x + 3)(x - 5)</label>
+            </div>
+          </div>
+
+          <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+      </div>
+
+      <script>
+        function submitQuiz() {
+          const form = document.getElementById('quizForm');
+          let score = 0;
+      
+          // Check answers
+          if (form.q1.value === "a") score++;
+      
+          // Repeat the above for each question
+      
+          // Display the result
+          alert("Your score: " + score + "/10");
+        }
+      </script>
+
+
+</body>
+</html>
+        
