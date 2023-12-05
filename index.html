@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NASTAVA</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <body>
+    <div class="banner"></div>
+    <img class="logo" src="Logo.svg" alt="Your Logo" />
+    <div class="banner2">
+      <a
+        href="file:///C:/Users/Windows/Documents/UX%20&%20the%20Web/Website-Project/Website-Project/english.html"
+        class="menu-option"
+        >English</a
+      >
+      <a href="Maths.html" class="menu-option">Mathematics</a>
+      <a href="./Biology/Webpage.html" class="menu-option">Biology</a>
+      <a href="chemistry.html" class="menu-option">Chemistry</a>
+      <a href="physics.html" class="menu-option">Physics</a>
+    </div>
+
+    <a href="#popup" class="trigger">Account</a>
+    <img class="user" src="user.png" alt="Your user" />
+    <div id="popup" class="overlay">
+      <div class="wrapper">
+        <a href="#" class="close">&times;</a>
+        <div class="column details">
+          <div class="signin">
+            <h1>Log In</h1>
+            <input type="email" placeholder="Enter Username" />
+            <input type="password" placeholder="Enter Password" />
+            <a href="#">Forgot Password</a>
+            <button class="form-submit">Log In!</button>
+            <span
+              >You don't have an account yet?
+              <button id="signup">Create it now!</button></span
+            >
+          </div>
+          <div class="signup">
+            <h1>Sign Up</h1>
+            <input type="name" placeholder="Full Name" />
+            <input type="email" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button class="form-submit">Sign Up!</button>
+            <span
+              >Already have an account?
+              <button id="signin">Log in!</button></span
+            >
+          </div>
+        </div>
+        <div class="column content">
+          <div class="signin">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+          </div>
+          <div class="signup">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start your journey with us!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gcse">
+      <h2>
+        Welcome to Nastava Learning and Resources! <br />Here you will find
+        resources to guide <br />you through your learning :)
+      </h2>
+    </div>
+    <table id="countdown">
+      <tr id="countdown-timer">
+        <td><span id="days">x</span></td>
+        <td><span id="hours">x</span></td>
+        <td><span id="minutes">x</span></td>
+        <td><span id="seconds">x</span></td>
+      </tr>
+      <tr id="countdown-labels">
+        <td><span>Days</span></td>
+        <td><span>Hourss</span></td>
+        <td><span>Minutes</span></td>
+        <td><span>Seconds</span></td>
+      </tr>
+    </table>
+
+    <div class="english">
+      <h2>English</h2>
+    </div>
+    <div class="maths">
+      <h2>Mathematics</h2>
+    </div>
+    <div class="sciences">
+      <h2>Sciences</h2>
+    </div>
+    <div class="chemistry">
+      <h2>Chemistry</h2>
+    </div>
+    <div class="biology">
+      <h2>Biology</h2>
+    </div>
+    <div class="physics">
+      <h2>Physics</h2>
+    </div>
+
+    <img class="hat" src="hat.png" alt="Graduation hat" />
+    <img class="book" src="book.png" alt="Workbooks" />
+    <img class="papers" src="papers.png" alt="papers" />
+    <img class="maths1" src="math.png" alt="maths shapes" />
+    <img class="scope" src="scope.png" alt="science microscope" />
+    <img class="bubbles" src="bubbles.png" alt="tubes of bubbling solution" />
+    <img class="dna" src="dna.png" alt="dna image" />
+
+    <div class="button2">
+      <button class="one">Learn More</button>
+    </div>
+    <div class="button3">
+      <button class="two">Learn More</button>
+    </div>
+    <div class="button4">
+      <button class="three">Learn More</button>
+    </div>
+    <div class="button5">
+      <button class="four">Learn More</button>
+    </div>
+    <div class="button6">
+      <button class="five">Learn More</button>
+    </div>
+
+    <script>
+      $(".signup").hide();
+
+      $("#signin, #signup").on("click", function () {
+        $(".signin, .signup").toggle();
+      });
+
+       document.querySelector(".login-button").addEventListener("click", function(){
+        document.querySelector(".popup").classList.add("active");
+      });
+      
+      document.querySelector(".signup-button").addEventListener("click", function(){
+        document.querySelector(".popup").classList.add("active");
+      });
+      document.querySelector(".popup .close-btn").addEventListener("click", function(){
+        document.querySelector(".popup").classList.remove("active");
+      });
+
+     
+    </script>
+  </body>
+</html>
